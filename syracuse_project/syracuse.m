@@ -9,8 +9,7 @@ function out = syracuse(u)
     end
 
     if out ~= 1
-        % Recursivity
-        ...
+        out = syracuse(out);
     end
 
 end
