@@ -8,7 +8,7 @@ function out = syracuse(u)
         ...
     end
 
-    if out ~= 1
+    if out == 1
         out = syracuse(out);
     end
 
